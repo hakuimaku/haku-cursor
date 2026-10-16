@@ -5,15 +5,15 @@ rasterised at each requested pixel size, so hotspots and proportions stay exact.
 
 Visual rules shared by *all* cursors
 ------------------------------------
-* silhouette ........ ``theme.base`` (near-black)
-* outline ........... ``theme.outline`` (off-white) hugging the union of the
-                      silhouette, ``OUTLINE`` units thick, so black stays
-                      visible on dark backgrounds
-* accent ............ ``theme.accent``, only for one small element per cursor
-                      (a pip, an inlay line, a badge glyph, a spinner arc)
-* linework .......... ``STROKE_MAIN`` for primary strokes, ``STROKE_MINOR`` for
-                      details; always round caps / joins
-* corners ........... ``CORNER_RADIUS`` on polygons
+* TWO colours only: ``theme.base`` (fill) and ``theme.accent`` (border + every glyph).
+* border ........... accent, ``OUTLINE`` units thick, hugging the union of all
+                     filled shapes of a cursor (so overlapping parts merge cleanly)
+* linework ......... ``STROKE_MAIN`` for primary strokes, ``STROKE_MINOR`` for
+                     details, always round caps / joins
+* corners .......... ``CORNER_RADIUS`` on polygons
+* no tails ......... the pointer is a compact arrowhead, nothing sticks out of it
+* animation ........ every ``draw`` takes a phase ``t`` in [0, 1) or ``None`` for the
+                     resting frame; helpers below keep motion subtle and loop seamlessly
 """
 
 from __future__ import annotations
@@ -31,22 +31,22 @@ from svg import (Arc, Circle, Group, Line, Path, Point, Shape, Style, fill, rota
 CANVAS = 100.0
 CENTER: Point = (50.0, 50.0)
 
-STROKE_MAIN = 6.0        # shafts, I-beam, crosshair arms
+STROKE_MAIN = 9.0        # shafts, I-beam, crosshair arms
 STROKE_MINOR = 3.0       # separators, badge glyphs
-RING_STROKE = 8.0        # spinner / forbidden ring
-OUTLINE = 2.2            # light outline thickness, measured outside the silhouette
-CORNER_RADIUS = 3.4      # default polygon corner rounding
-SEPARATOR = 1.8          # thin light lines separating fingers
+RING_STROKE = 10.0       # spinner / forbidden ring
+OUTLINE = 5.0            # accent border thickness, measured outside the fill
+CORNER_RADIUS = 4.0      # default polygon rounding
+SEPARATOR = 2.0          # thin accent lines separating fingers
 ACCENT_LINE = 3.6        # accent inlay thickness
-PIP_DISC_R = 6.2         # dark disc that carries the accent pip
-PIP_DOT_R = 3.2          # accent pip radius
+PIP_DISC_R = 8.0         # base disc that carries the accent pip
+PIP_DOT_R = 4.0          # accent pip radius
 
-ARROWHEAD_LEN = 17.0
-ARROWHEAD_HALF = 12.0
+ARROWHEAD_LEN = 18.0
+ARROWHEAD_HALF = 14.0
 
-BADGE_CENTER: Point = (72.0, 72.0)
-BADGE_R = 15.0
-BADGE_GLYPH = 2.8        # accent stroke inside badges
+BADGE_CENTER: Point = (73.0, 73.0)
+BADGE_R = 15.5
+BADGE_GLYPH = 3.0        # accent stroke inside badges
 
 
 # --------------------------------------------------------------------------- #
@@ -69,11 +69,11 @@ def accent_fill(theme: Theme) -> Style:
 
 
 def separator(theme: Theme, p0: Point, p1: Point) -> Line:
-    return Line(p0, p1, stroke(theme.outline, SEPARATOR))
+    return Line(p0, p1, accent_stroke(theme, SEPARATOR))
 
 
 # --------------------------------------------------------------------------- #
-# Outline ("halo") handling
+# Border ("halo") handling
 # --------------------------------------------------------------------------- #
 def halo(shape: Shape, color: str, grow: float = OUTLINE) -> Shape:
     """Copy of ``shape`` painted in ``color`` and grown outward by ``grow`` units."""
@@ -84,8 +84,8 @@ def halo(shape: Shape, color: str, grow: float = OUTLINE) -> Shape:
 
 
 def silhouette(theme: Theme, shapes: Sequence[Shape], grow: float = OUTLINE) -> Group:
-    """Paint all outline halos first, then every body, so overlapping parts merge cleanly."""
-    return Group([halo(s, theme.outline, grow) for s in shapes] + list(shapes))
+    """Paint all accent borders first, then every body, so overlapping parts merge cleanly."""
+    return Group([halo(s, theme.accent, grow) for s in shapes] + list(shapes))
 
 
 # --------------------------------------------------------------------------- #
@@ -142,7 +142,7 @@ def rotate_point(p: Point, angle: float, about: Point = CENTER) -> Point:
 
 
 def pip(theme: Theme, cx: float, cy: float) -> tuple[Circle, Circle]:
-    """Accent pip: a dark disc (part of the silhouette) and the accent dot on top."""
+    """Accent pip: a base disc (part of the silhouette) and the accent dot on top."""
     return (Circle(cx, cy, PIP_DISC_R, body_fill(theme)),
             Circle(cx, cy, PIP_DOT_R, accent_fill(theme)))
 
@@ -166,11 +166,38 @@ def ring(theme: Theme, cx: float, cy: float, r: float, width: float = RING_STROK
     return Circle(cx, cy, r, body_stroke(theme, width))
 
 
-def spinner_arcs(theme: Theme, cx: float, cy: float, r: float, phase: float,
+# --------------------------------------------------------------------------- #
+# Animation helpers. ``t`` is the loop phase in [0, 1); ``None`` means "resting frame".
+# --------------------------------------------------------------------------- #
+def phase(t: float | None) -> float:
+    return 0.0 if t is None else t
+
+
+def pulse(t: float | None) -> float:
+    """Smooth 0 -> 1 -> 0 loop (0 at rest and at t = 0)."""
+    return 0.0 if t is None else 0.5 - 0.5 * math.cos(2 * math.pi * t)
+
+
+def staggered(t: float | None, index: int, count: int, spread: float = 0.5) -> float:
+    """``pulse`` delayed by ``index/count * spread`` of a loop (1.0 at rest)."""
+    if t is None:
+        return 1.0
+    return pulse((t - spread * index / count) % 1.0)
+
+
+def spinner_arcs(theme: Theme, cx: float, cy: float, r: float, t: float | None,
                  width: float, head: float = 95.0, tail: float = 60.0) -> list[Arc]:
-    """Fading arc spinner. ``phase`` in [0, 1) is one full revolution."""
-    angle = -90.0 + 360.0 * phase
+    """Fading arc spinner. ``t`` is one full revolution."""
+    angle = -90.0 + 360.0 * phase(t)
     return [
         Arc(cx, cy, r, angle - tail, angle, accent_stroke(theme, width, 0.4)),
         Arc(cx, cy, r, angle, angle + head, accent_stroke(theme, width)),
     ]
+
+
+def ripple(theme: Theme, cx: float, cy: float, t: float | None, r0: float, r1: float,
+           width: float = 3.0) -> list[Circle]:
+    """Expanding, fading ring. Nothing is drawn on the resting frame."""
+    if t is None:
+        return []
+    return [Circle(cx, cy, r0 + (r1 - r0) * t, accent_stroke(theme, width, max(0.0, 1.0 - t)))]

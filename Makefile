@@ -1,26 +1,39 @@
 # Haku Cursor — geometry (Python) -> SVG -> PNG -> xcursorgen -> XCursor themes
 #
-#   make                  build every accent theme into dist/
-#   make blue             build only Haku-Blue   (blue cyan green purple pink red orange yellow)
-#   make preview          generated/preview.svg + preview.png (all cursors, dark + light panel)
-#   make verify           structural checks on everything in dist/
-#   make install          install all built themes to ~/.local/share/icons
-#   make install THEME=blue
+#   make                  build default Haku-Dark + Haku-Light
+#   make blue             Haku-Blue and Haku-Blue-Light   (blue cyan green purple pink red orange yellow)
+#   make light | dark     default light style only | dark style only
+#   make blue STYLE=light only Haku-Blue-Light              (STYLE=dark|light|both, default both)
+#   make ANIM=loading     only wait/progress animate        (ANIM=all|loading|none, default all)
+#   make SIZES=extended   16 20 24 28 32 40 48 56 64 72 96  (default: 24 32 48 64 96)
+#   make preview          generated/preview*.png + animations*.png
+#   make verify           structural + two-colour checks on everything in dist/
+#   make install          install Haku-Dark + Haku-Light to ~/.icons/
+#   make install THEME=blue         (installs Haku-Blue and Haku-Blue-Light; THEME=blue-light for one)
 #   make uninstall [THEME=blue]
 #   make clean
 
 PYTHON  ?= python3
-THEME   ?= all
+THEME   ?= default
 SIZES   ?= default
-PRESETS := $(shell $(PYTHON) -c "import json;print(*json.load(open('config/palettes.json'))['accents'])")
+STYLE   ?= both
+ANIM    ?= all
+PRESETS := $(shell $(PYTHON) -c "import json;print(*json.load(open('config/palettes.json'))['accents']['dark'])")
+GEN      = $(PYTHON) src/generate.py --sizes $(SIZES) --animations $(ANIM)
 
-.PHONY: all $(PRESETS) preview verify install uninstall clean help
+.PHONY: all light dark $(PRESETS) preview verify install uninstall clean help
 
 all:
-	$(PYTHON) src/generate.py --all --sizes $(SIZES)
+	$(GEN) --style $(STYLE)
+
+light:
+	$(GEN) --style light
+
+dark:
+	$(GEN) --style dark
 
 $(PRESETS):
-	$(PYTHON) src/generate.py --palette $@ --sizes $(SIZES)
+	$(GEN) --palette $@ --style $(STYLE)
 
 preview:
 	$(PYTHON) src/generate.py --preview
@@ -38,4 +51,4 @@ clean:
 	./scripts/clean.sh
 
 help:
-	@sed -n '2,12p' Makefile
+	@sed -n '2,17p' Makefile

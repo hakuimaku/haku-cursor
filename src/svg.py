@@ -332,6 +332,22 @@ def walk(node, matrix: Matrix = IDENTITY) -> Iterator[tuple[Shape, Matrix]]:
         yield node, matrix
 
 
+def bounds(root: Group, matrix: Matrix = IDENTITY) -> tuple[float, float, float, float] | None:
+    """Axis-aligned bounds ``(min_x, min_y, max_x, max_y)`` of everything painted, strokes included."""
+    xs: list[float] = []
+    ys: list[float] = []
+    for shape, m in walk(root, matrix):
+        if isinstance(shape, Text):
+            continue
+        pad = shape.style.width / 2 * m.uniform_scale if shape.style.stroke else 0.0
+        for pts, _closed in shape.flatten():
+            for p in pts:
+                x, y = m.apply(p)
+                xs += [x - pad, x + pad]
+                ys += [y - pad, y + pad]
+    return (min(xs), min(ys), max(xs), max(ys)) if xs else None
+
+
 def with_style(shape: Shape, style: Style) -> Shape:
     return replace(shape, style=style)
 

@@ -2,7 +2,7 @@
 #
 #   home.pointerCursor = {
 #     package = pkgs.callPackage /path/to/haku-cursor { };
-#     name = "Haku-Blue";
+#     name = "Haku-Dark";  # or "Haku-Light"
 #     size = 24;
 #     gtk.enable = true;
 #   };

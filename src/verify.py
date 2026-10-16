@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import math
 import sys
 from pathlib import Path
@@ -33,8 +34,42 @@ def expected_hotspot(name: str, size: int) -> tuple[int, int]:
     return min(size - 1, math.floor(hx * k)), min(size - 1, math.floor(hy * k))
 
 
+COLOR_CHECK_SIZE = 32      # one size is enough to catch stray colours
+COLOR_TOLERANCE = 16       # max RGB distance from the base-accent line (anti-aliasing blends)
+
+
+def _hex_rgb(color: str) -> tuple[int, int, int]:
+    return int(color[1:3], 16), int(color[3:5], 16), int(color[5:7], 16)
+
+
+def off_palette_pixels(frame: xcursor.Frame, base: str, accent: str) -> int:
+    """Count opaque-ish pixels whose colour is not a blend of base and accent."""
+    b, a = _hex_rgb(base), _hex_rgb(accent)
+    d = tuple(a[i] - b[i] for i in range(3))
+    denom = sum(v * v for v in d) or 1
+    px, bad = frame.argb, 0
+    for i in range(0, len(px), 4):
+        alpha = px[i + 3]
+        if alpha < 160:
+            continue
+        c = (px[i + 2] * 255 // alpha, px[i + 1] * 255 // alpha, px[i] * 255 // alpha)
+        u = max(0.0, min(1.0, sum((c[k] - b[k]) * d[k] for k in range(3)) / denom))
+        if sum((c[k] - (b[k] + u * d[k])) ** 2 for k in range(3)) > COLOR_TOLERANCE ** 2:
+            bad += 1
+    return bad
+
+
+def load_colors(theme_dir: Path) -> tuple[str, str] | None:
+    info = ROOT / "build" / theme_dir.name / "theme.json"
+    if not info.is_file():
+        return None
+    data = json.loads(info.read_text(encoding="utf-8"))
+    return data["base"], data["accent"]
+
+
 def verify_theme(theme_dir: Path) -> list[str]:
     errors: list[str] = []
+    colors = load_colors(theme_dir)
     cursors_dir = theme_dir / "cursors"
     if not (theme_dir / "index.theme").is_file():
         errors.append("missing index.theme")
@@ -55,17 +90,24 @@ def verify_theme(theme_dir: Path) -> list[str]:
             continue
         sizes = tuple(sorted({f.size for f in frames}))
         sizes_seen.add(sizes)
+        counts = {size: sum(1 for f in frames if f.size == size) for size in sizes}
+        if len(set(counts.values())) > 1:
+            errors.append(f"{name}: frame count differs between sizes {counts}")
         for size in sizes:
             of_size = [f for f in frames if f.size == size]
-            if len(of_size) != spec.frames:
-                errors.append(f"{name}@{size}: {len(of_size)} frames, expected {spec.frames}")
+            if len(of_size) not in (1, spec.frames):      # 1 = built with --animations loading|none
+                errors.append(f"{name}@{size}: {len(of_size)} frames, expected {spec.frames} (or 1)")
             for f in of_size:
                 if (f.width, f.height) != (size, size):
                     errors.append(f"{name}@{size}: image is {f.width}x{f.height}")
                 if (f.xhot, f.yhot) != expected_hotspot(name, size):
                     errors.append(f"{name}@{size}: hotspot {(f.xhot, f.yhot)} != {expected_hotspot(name, size)}")
-                if spec.animated and f.delay != spec.delay_ms:
+                if len(of_size) > 1 and f.delay != spec.delay_ms:
                     errors.append(f"{name}@{size}: delay {f.delay} != {spec.delay_ms}")
+                if colors and size == COLOR_CHECK_SIZE:
+                    stray = off_palette_pixels(f, *colors)
+                    if stray:
+                        errors.append(f"{name}@{size}: {stray} pixels use a colour other than base/accent")
                 if not any(f.argb[3::4]):
                     errors.append(f"{name}@{size}: fully transparent frame")
                 # premultiplied data must satisfy colour <= alpha
@@ -84,6 +126,8 @@ def verify_theme(theme_dir: Path) -> list[str]:
         elif not (cursors_dir / target).is_file():
             errors.append(f"alias {alias}: dangling")
 
+    if colors is None:
+        print(f"     (no build/{theme_dir.name}/theme.json: two-colour check skipped)")
     known = set(CURSORS) | set(ALIASES)
     for entry in cursors_dir.iterdir():
         if entry.name not in known:

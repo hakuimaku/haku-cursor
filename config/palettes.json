@@ -1,16 +1,32 @@
 {
-  "_comment": "Edit colours here. base = silhouette, outline = thin light edge (keeps the cursor visible on dark backgrounds), accents = one preset per Haku-<Name> theme.",
+  "_comment": "Two colours only: 'base' (the fill) and the accent (the border and every glyph). Each style has its own fill and its own accent set, because a pastel border disappears on a light fill. Edit freely; every key under accents.dark must also exist under accents.light.",
   "prefix": "Haku",
-  "base": "#111111",
-  "outline": "#f2f2f2",
+  "styles": {
+    "dark":  { "suffix": "",       "base": "#111111" },
+    "light": { "suffix": "-Light", "base": "#f5f5f5" }
+  },
   "accents": {
-    "blue":   "#89b4fa",
-    "cyan":   "#94e2d5",
-    "green":  "#a6e3a1",
-    "purple": "#cba6f7",
-    "pink":   "#f5c2e7",
-    "red":    "#f38ba8",
-    "orange": "#fab387",
-    "yellow": "#f9e2af"
+    "dark": {
+      "default": "#d0d0d0",
+      "blue":   "#89b4fa",
+      "cyan":   "#94e2d5",
+      "green":  "#a6e3a1",
+      "purple": "#cba6f7",
+      "pink":   "#f5c2e7",
+      "red":    "#f38ba8",
+      "orange": "#fab387",
+      "yellow": "#f9e2af"
+    },
+    "light": {
+      "default": "#000000",
+      "blue":   "#1e66f5",
+      "cyan":   "#179299",
+      "green":  "#40a02b",
+      "purple": "#8839ef",
+      "pink":   "#ea76cb",
+      "red":    "#d20f39",
+      "orange": "#fe640b",
+      "yellow": "#df8e1d"
+    }
   }
 }
