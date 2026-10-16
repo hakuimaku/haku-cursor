@@ -1,0 +1,246 @@
+# Development
+
+[Back to README](../README.md)
+
+## Build pipeline
+
+The pipeline is fully code-driven. SVG, PNG and XCursor binaries are *generated artifacts*: never edit them by hand, change the code and rebuild.
+
+```
+Python geometry  →  SVG  →  PNG (re-rasterised from the vector at every size)  →  xcursorgen  →  XCursor theme
+```
+
+## Extra colours
+
+Extra colours are optional. Building them does not change what `make install` installs by default.
+
+```bash
+./scripts/build.sh blue        # build Haku-Blue and Haku-Blue-Light
+./scripts/install.sh blue      # install both blue themes into ~/.icons/
+./scripts/install.sh blue-light  # install only Haku-Blue-Light
+```
+
+Available colours: `blue cyan green purple pink red orange yellow`.
+
+To build every preset and install every built theme, opt in explicitly:
+
+```bash
+./scripts/build.sh all
+./scripts/install.sh all
+```
+
+## Design
+
+### Principles
+
+1. **Two colours, nothing else.** A *fill* (`base`) and an *accent*. The accent is the border and every glyph; there is no third colour (`make verify` checks this pixel by pixel).
+2. **Chunky and compact.** Fat strokes, round caps, generously rounded corners. The pointer is a plain arrowhead with **no tail**; fingers are thin, the palm stays full, and the hands carry no inner details.
+3. **Thick accent border.** Roughly 1.2 px thick at 24 px, which keeps the cursor readable on any wallpaper.
+4. **Fills its canvas.** Each cursor is scaled so its visible art, border included, spans the whole nominal size: **exactly 24 px at size 24**, 32 px at size 32, and so on.
+5. **One design system.** All cursors share the same tokens; none is designed in isolation.
+
+### Styles
+
+| Style | Fill (`base`) | Default accent | Theme name |
+|---|---|---|---|
+| dark | `#111111` | grey-white `#d0d0d0` | `Haku-Dark` |
+| light | `#f5f5f5` | black `#000000` | `Haku-Light` |
+
+Only these two themes are built and installed by default. Optional colour presets remain in `config/palettes.json`: Catppuccin Mocha pastels for dark and Latte saturated colours for light. Build and install them explicitly with the scripts below.
+
+### Anatomy of a cursor
+
+```
+┌─ border ──── theme.accent   thick edge around the union of all filled shapes
+├─ fill ────── theme.base     the main shape(s)
+└─ glyph ───── theme.accent   pips, badge symbols, spinner arcs, slash, plus/minus
+```
+
+The border is drawn as a "halo" behind *all* body shapes first, so overlapping parts (fingers, shaft + arrowhead) merge into one clean silhouette instead of showing internal seams.
+
+### Coordinate system
+
+Every cursor is drawn on a fixed **100 × 100 canvas** in normalised units, then scaled to fill that canvas (see principle 4) and serialised to SVG once. The SVG is rasterised separately for each pixel size (24, 32, 48, 64, 96 by default); shapes are never scaled as bitmaps. Hotspots are declared in one place (`CURSORS` in `src/cursors.py`), mapped through the fit transform, and converted to pixels with `floor(h · size / 100)`.
+
+### Tokens (`src/geometry.py`, `config/palettes.json`)
+
+| Token | Value | Used for |
+|---|---|---|
+| `base` | `#111111` / `#f5f5f5` | fill (dark / light) |
+| `accent` | `#d0d0d0` / `#000000`, preset or custom | border and glyphs |
+| `OUTLINE` | 5 | accent border thickness, outside the fill |
+| `STROKE_MAIN` | 9 | shafts, I-beam, primary lines |
+| `STROKE_MINOR` | 3 | badge glyphs |
+| `RING_STROKE` | 10 | spinner and forbidden rings |
+| `CORNER_RADIUS` | 4 | default polygon rounding |
+| `PIP_DISC_R` / `PIP_DOT_R` | 8 / 4 | centre pip of precision, move and resize cursors |
+| `BADGE_R` | 15.5 | round badge on drag, help, progress and no-drop cursors |
+
+## Animations
+
+24 of the 32 cursors move. All loops are seamless and subtle; resting frames are plain static art.
+
+| Cursor | Motion | Frames × delay |
+|---|---|---|
+| `wait` | rotating arc with a fading tail | 16 × 60 ms |
+| `progress` | same spinner inside the badge | 16 × 60 ms |
+| `pointer` | click ripple expanding from the fingertip | 12 × 70 ms |
+| `crosshair` | ripple expanding from the centre | 10 × 70 ms |
+| `move`, 4 double-headed and 8 single-headed resize cursors | arrowheads breathe outwards | 8 × 80 ms |
+| `dnd-move` / `dnd-copy` / `dnd-link` | badge glyph slides / pulses / nudges | 8 × 80 ms |
+| `help` | question mark pulses | 10 × 80 ms |
+| `context-menu` | menu lines light up in sequence | 12 × 80 ms |
+| `zoom-in`, `zoom-out` | glint sweeps around the lens | 12 × 80 ms |
+
+Static: `left_ptr`, `text`, `vertical-text`, `cell`, `grab`, `grabbing`, `not-allowed`, `no-drop`.
+`make preview` also writes `generated/animations.png` (and `animations-light.png`) with every frame of every animated cursor.
+
+Animations multiply file size (about 16 MB per theme with everything on, 4.2 MB with only the spinners, 2.2 MB fully static), so you can dial them down:
+
+```bash
+make ANIM=loading     # only wait / progress animate
+make ANIM=none        # everything static
+```
+
+## Cursors
+
+32 real assets plus 68 aliases created as relative symlinks (no duplicated binaries).
+
+| Group | Assets | Main aliases |
+|---|---|---|
+| Normal | `left_ptr` | `default` `arrow` `top_left_arrow` |
+| Link | `pointer` | `hand` `hand1` `hand2` `pointing_hand` `link` |
+| Text | `text` `vertical-text` | `xterm` `ibeam` |
+| Precision | `crosshair` `cell` | `cross` `tcross` `plus` |
+| Move | `move` | `all-scroll` `fleur` `size_all` |
+| Resize | `n/s/e/w-resize` · `ne/nw/se/sw-resize` · `ns/ew/nesw/nwse-resize` | `top_side` `bottom_left_corner` `sb_h_double_arrow` `col-resize` `fd_double_arrow` … |
+| Drag | `grab` `grabbing` `dnd-move` `dnd-copy` `dnd-link` | `openhand` `closedhand` `copy` `alias` |
+| State | `not-allowed` `no-drop` `help` `context-menu` | `forbidden` `crossed_circle` `question_arrow` |
+| Loading | `wait` `progress` | `watch` · `left_ptr_watch` `half-busy` |
+| Zoom | `zoom-in` `zoom-out` | `zoom_in` `zoom_out` |
+
+Legacy 32-character hash names used by old X11 builds are listed in `HASH_ALIASES` (`src/cursors.py`). Only mappings confirmed by public documentation are included (Arch Wiki *Cursor themes*, a Gentoo forum thread on xcursor symlinks). Modern toolkits (GTK 3/4, Qt 5/6, Firefox, Chromium) request CSS names and do not need them.
+
+## Dependencies
+
+| Needed | Role | Notes |
+|---|---|---|
+| `python3` ≥ 3.10 | generator | standard library only |
+| `rsvg-convert` (librsvg) | SVG → PNG | alternatives: `resvg`, `inkscape` (CLI only, no GUI) |
+| `xcursorgen` | PNG → XCursor | |
+| `make` | build driver | optional |
+| `Pillow` | fallback only | used when no SVG renderer or `xcursorgen` is on `PATH` |
+
+All binaries are resolved through `PATH` (`shutil.which`); nothing is hardcoded to `/usr/bin`. If `rsvg-convert` or `xcursorgen` is missing, the generator prints a `note:` and falls back to a built-in Pillow rasteriser and a pure-Python XCursor writer. Force a backend with `--renderer` / `--xcursorgen`.
+
+### NixOS
+
+```bash
+nix-shell            # uses the bundled shell.nix
+make
+```
+
+Minimal equivalent:
+
+```nix
+pkgs.mkShell {
+  packages = with pkgs; [
+    python3
+    gnumake
+    librsvg        # provides rsvg-convert
+    xcursorgen     # nixpkgs >= 25.05; older releases: xorg.xcursorgen
+  ];
+}
+```
+
+As a package (home-manager). The bundled `default.nix` has **not yet been tested on a machine with Nix**:
+
+```nix
+home.pointerCursor = {
+  package = pkgs.callPackage /path/to/haku-cursor { };
+  name = "Haku-Dark";          # or "Haku-Light"
+  size = 24;
+  gtk.enable = true;
+};
+```
+
+## Build
+
+```bash
+make                       # only dist/Haku-Dark and dist/Haku-Light
+make STYLE=light           # only Haku-Light             (STYLE=dark|light|both)
+make light                 # only Haku-Light             (make dark: only Haku-Dark)
+make ANIM=loading          # animations: all | loading | none
+make SIZES=extended        # 16 20 24 28 32 40 48 56 64 72 96   (default: 24 32 48 64 96)
+make preview               # generated/preview*.png + animations*.png
+make verify                # XCursor structure, hotspots, animation, symlinks, two-colour check
+make clean
+```
+
+Running `make` again rebuilds only the two default themes. Previously built extra themes stay in `dist/`; see [Extra colours](#extra-colours) to build and install them explicitly.
+
+Or call the generator directly:
+
+```bash
+python3 src/generate.py                 # default dark + light
+python3 src/generate.py --palette blue
+python3 src/generate.py --palette green --style light
+python3 src/generate.py --all --animations loading
+python3 src/generate.py --sizes 24,32,48 --palette purple
+python3 src/generate.py --list
+```
+
+## Custom accent
+
+```bash
+python3 src/generate.py --accent "#7aa2f7" --name Haku-Tokyo            # Haku-Tokyo + Haku-Tokyo-Light
+python3 src/generate.py --accent "#7aa2f7" --name Haku-Tokyo --style dark
+python3 src/generate.py --name Haku-Mono --accent "#d0d0d0" --base "#000000" --style dark
+```
+
+Install a custom pair with `./scripts/install.sh Haku-Tokyo` and `./scripts/install.sh Haku-Tokyo-Light`.
+
+`--name` is the theme name without the style suffix; the light style appends `-Light`. A custom accent is used as given for whichever styles you build, so check that it contrasts with the fill. Preset colours live in `config/palettes.json`; add a key to both `accents.dark` and `accents.light` to get a new theme and a new `make <name>` target.
+
+## Checks
+
+```bash
+python3 -m unittest discover -s tests -v
+make verify
+make preview
+```
+
+The tests check default colours and theme names, explicit extra-colour selection, and install/uninstall behaviour in temporary directories. `make verify` checks built XCursor files, hotspots, animation frames, aliases and the two-colour palette. `make preview` regenerates the dark/light preview sheets and animation filmstrips in `generated/`.
+
+Verification requires built themes, so run `make` first. `make clean` removes generated previews, intermediate files and built themes; it does not uninstall themes from `~/.icons/`.
+
+## Project layout
+
+```
+src/svg.py        scene graph + SVG serialiser (groups, transforms, path, arc, text, bounds)
+src/geometry.py   design tokens, rounded_polygon, halo/silhouette, arrowhead, badge, spinner, ripple
+src/cursors.py    cursor drawings + registry (hotspot, frames, aliases) + fit-to-canvas
+src/palettes.py   loads config/palettes.json, Theme (base + accent), custom accents
+src/generate.py   CLI + pipeline (SVG → PNG → xcursorgen → symlinks → index.theme)
+src/preview.py    preview sheets and animation filmstrips     src/verify.py   checks built themes
+src/raster.py     fallback rasteriser                          src/xcursor.py  fallback XCursor reader/writer
+tests/test_defaults.py        default selection and isolated install/uninstall tests
+config/palettes.json          fills and accent presets for the dark and light styles
+generated/<Theme>/{svg,png}   intermediate artifacts (git-ignored)
+build/<Theme>/                xcursorgen configs + theme.json (git-ignored)
+dist/<Theme>/                 finished themes (git-ignored)
+```
+
+To add a cursor, write `draw_xxx(theme, t) -> Group` in `cursors.py` (`t` is the animation phase in [0, 1), or `None` for the resting frame) and add one `CursorSpec(name, draw, hotspot, group, frames=…, delay_ms=…, aliases=…)` entry. Hotspots are given in the unscaled drawing; the fit transform is applied for you.
+
+## Known limitations
+
+- **Not yet tested on a real desktop.** Both default themes were built with `rsvg-convert` and the pure-Python XCursor writer, then checked with `make verify`. The `xcursorgen` binary and Nix packaging were not available for this check.
+- With a 5-unit border, very thin shapes read as mostly accent; the I-beam and crosshair keep a narrow dark core. There is no pixel-grid hinting yet.
+- Animated themes are large (about 16 MB each); use `ANIM=loading` or `ANIM=none` for lean builds.
+- Missing: `right_ptr`, `pencil`, `color-picker`, dedicated `col-resize` / `row-resize` (currently aliases of `ew-resize` / `ns-resize`), Windows `.cur` export, native hyprcursor output.
+
+## Authorship
+
+> **Authorship.** This whole project (cursor geometry, SVG/PNG/XCursor generator, build and install scripts, Nix files, and this README) was designed and written by **Claude**, Anthropic's AI assistant, in an interactive coding session.
+> No AI image generation was used: every cursor is drawn by Python code, and nothing is copied or traced from any other cursor theme.
