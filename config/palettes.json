@@ -1,0 +1,16 @@
+{
+  "_comment": "Edit colours here. base = silhouette, outline = thin light edge (keeps the cursor visible on dark backgrounds), accents = one preset per Haku-<Name> theme.",
+  "prefix": "Haku",
+  "base": "#111111",
+  "outline": "#f2f2f2",
+  "accents": {
+    "blue":   "#89b4fa",
+    "cyan":   "#94e2d5",
+    "green":  "#a6e3a1",
+    "purple": "#cba6f7",
+    "pink":   "#f5c2e7",
+    "red":    "#f38ba8",
+    "orange": "#fab387",
+    "yellow": "#f9e2af"
+  }
+}

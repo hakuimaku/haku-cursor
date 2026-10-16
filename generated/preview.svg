@@ -1,0 +1,1376 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1984" height="528" viewBox="0 0 1984 528">
+  <g>
+    <rect x="0" y="0" width="992" height="528" fill="#1e1e2e"/>
+    <g transform="matrix(0.96 0 0 0.96 14 14)">
+      <g>
+        <g>
+          <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+        </g>
+        <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="28.4" cy="23.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="28.4" cy="23.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="62" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">left_ptr</text>
+    <g transform="matrix(0.96 0 0 0.96 138 14)">
+      <g>
+        <g>
+          <line x1="34" y1="66" x2="21" y2="53" fill="none" stroke="#f2f2f2" stroke-width="16.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="32" y="8" width="17" height="52" rx="8.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="47" y="32" width="16" height="34" rx="8" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="61" y="38" width="15" height="28" rx="7.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="32" y="46" width="45" height="40" rx="13" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="34" y1="66" x2="21" y2="53" fill="none" stroke="#111111" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="32" y="8" width="17" height="52" rx="8.5" fill="#111111"/>
+          <rect x="47" y="32" width="16" height="34" rx="8" fill="#111111"/>
+          <rect x="61" y="38" width="15" height="28" rx="7.5" fill="#111111"/>
+          <rect x="32" y="46" width="45" height="40" rx="13" fill="#111111"/>
+        </g>
+        <line x1="48" y1="36" x2="48" y2="51" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="62" y1="42" x2="62" y2="54" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="43" y1="77" x2="66" y2="77" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="176.88" cy="22.64" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="176.88" cy="22.64" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="186" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">pointer</text>
+    <g transform="matrix(0.96 0 0 0.96 262 14)">
+      <g>
+        <g>
+          <line x1="50" y1="16" x2="50" y2="84" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="39" y1="16" x2="61" y2="16" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="39" y1="84" x2="61" y2="84" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="50" y1="16" x2="50" y2="84" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="39" y1="16" x2="61" y2="16" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="39" y1="84" x2="61" y2="84" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <line x1="50" y1="43" x2="50" y2="57" fill="none" stroke="#89b4fa" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="310" cy="62" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="310" cy="62" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="310" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">text</text>
+    <g transform="matrix(0.96 0 0 0.96 386 14)">
+      <g transform="matrix(0 1 -1 0 100 0)">
+        <g>
+          <g>
+            <line x1="50" y1="16" x2="50" y2="84" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="39" y1="16" x2="61" y2="16" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="39" y1="84" x2="61" y2="84" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="16" x2="50" y2="84" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="39" y1="16" x2="61" y2="16" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="39" y1="84" x2="61" y2="84" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <line x1="50" y1="43" x2="50" y2="57" fill="none" stroke="#89b4fa" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="434" cy="62" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="434" cy="62" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="434" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">vertical-text</text>
+    <g transform="matrix(0.96 0 0 0.96 510 14)">
+      <g>
+        <g>
+          <line x1="50" y1="12" x2="50" y2="88" fill="none" stroke="#f2f2f2" stroke-width="9.9" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="12" y1="50" x2="88" y2="50" fill="none" stroke="#f2f2f2" stroke-width="9.9" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="50" y1="12" x2="50" y2="88" fill="none" stroke="#111111" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="12" y1="50" x2="88" y2="50" fill="none" stroke="#111111" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+        </g>
+        <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="558" cy="62" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="558" cy="62" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="558" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">crosshair</text>
+    <g transform="matrix(0.96 0 0 0.96 634 14)">
+      <g>
+        <g>
+          <path d="M46 16 L54 16 Q57 16 57 19 L57 40 Q57 43 60 43 L81 43 Q84 43 84 46 L84 54 Q84 57 81 57 L60 57 Q57 57 57 60 L57 81 Q57 84 54 84 L46 84 Q43 84 43 81 L43 60 Q43 57 40 57 L19 57 Q16 57 16 54 L16 46 Q16 43 19 43 L40 43 Q43 43 43 40 L43 19 Q43 16 46 16 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M46 16 L54 16 Q57 16 57 19 L57 40 Q57 43 60 43 L81 43 Q84 43 84 46 L84 54 Q84 57 81 57 L60 57 Q57 57 57 60 L57 81 Q57 84 54 84 L46 84 Q43 84 43 81 L43 60 Q43 57 40 57 L19 57 Q16 57 16 54 L16 46 Q16 43 19 43 L40 43 Q43 43 43 40 L43 19 Q43 16 46 16 Z" fill="#111111"/>
+          <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+        </g>
+        <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="682" cy="62" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="682" cy="62" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="682" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">cell</text>
+    <g transform="matrix(0.96 0 0 0.96 758 14)">
+      <g>
+        <g>
+          <line x1="50" y1="27" x2="50" y2="73" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="27" y1="50" x2="73" y2="50" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M86.991 47.876 L77.099 40.894 Q73 38 73 43.018 L73 56.982 Q73 62 77.099 59.106 L86.991 52.124 Q90 50 86.991 47.876 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M13.009 52.124 L22.901 59.106 Q27 62 27 56.982 L27 43.018 Q27 38 22.901 40.894 L13.009 47.876 Q10 50 13.009 52.124 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="50" y1="27" x2="50" y2="73" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="27" y1="50" x2="73" y2="50" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#111111"/>
+          <path d="M86.991 47.876 L77.099 40.894 Q73 38 73 43.018 L73 56.982 Q73 62 77.099 59.106 L86.991 52.124 Q90 50 86.991 47.876 Z" fill="#111111"/>
+          <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#111111"/>
+          <path d="M13.009 52.124 L22.901 59.106 Q27 62 27 56.982 L27 43.018 Q27 38 22.901 40.894 L13.009 47.876 Q10 50 13.009 52.124 Z" fill="#111111"/>
+          <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+        </g>
+        <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="806" cy="62" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="806" cy="62" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="806" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">move</text>
+    <g transform="matrix(0.96 0 0 0.96 882 14)">
+      <g>
+        <g>
+          <g>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#111111"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#111111"/>
+            <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="930" cy="62" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="930" cy="62" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="930" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">ns-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 14 146)">
+      <g>
+        <g transform="matrix(0 1 -1 0 100 0)">
+          <g>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#111111"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#111111"/>
+            <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="62" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="62" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="62" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">ew-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 138 146)">
+      <g>
+        <g transform="matrix(0.707 0.707 -0.707 0.707 50 -20.711)">
+          <g>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#111111"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#111111"/>
+            <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="186" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="186" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="186" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">nesw-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 262 146)">
+      <g>
+        <g transform="matrix(0.707 -0.707 0.707 0.707 -20.711 50)">
+          <g>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#111111"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#111111"/>
+            <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="310" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="310" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="310" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">nwse-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 386 146)">
+      <g>
+        <g>
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="434" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="434" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="434" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">n-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 510 146)">
+      <g>
+        <g transform="matrix(0.707 0.707 -0.707 0.707 50 -20.711)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="558" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="558" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="558" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">ne-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 634 146)">
+      <g>
+        <g transform="matrix(0 1 -1 0 100 0)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="682" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="682" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="682" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">e-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 758 146)">
+      <g>
+        <g transform="matrix(-0.707 0.707 -0.707 -0.707 120.711 50)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="806" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="806" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="806" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">se-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 882 146)">
+      <g>
+        <g transform="matrix(-1 0 0 -1 100 100)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="930" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="930" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="930" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">s-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 14 278)">
+      <g>
+        <g transform="matrix(-0.707 -0.707 0.707 -0.707 50 120.711)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="62" cy="326" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="62" cy="326" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="62" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">sw-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 138 278)">
+      <g>
+        <g transform="matrix(0 -1 1 0 0 100)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="186" cy="326" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="186" cy="326" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="186" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">w-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 262 278)">
+      <g>
+        <g transform="matrix(0.707 -0.707 0.707 0.707 -20.711 50)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="310" cy="326" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="310" cy="326" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="310" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">nw-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 386 278)">
+      <g transform="matrix(1 0 0 1 8 0)">
+        <g>
+          <line x1="27" y1="70" x2="14" y2="54" fill="none" stroke="#f2f2f2" stroke-width="16.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="25" y="26" width="13" height="40" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="37.5" y="16" width="13" height="50" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="50" y="22" width="13" height="44" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="62.5" y="32" width="13" height="34" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="25" y="48" width="50.5" height="38" rx="13" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="27" y1="70" x2="14" y2="54" fill="none" stroke="#111111" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="25" y="26" width="13" height="40" rx="6.5" fill="#111111"/>
+          <rect x="37.5" y="16" width="13" height="50" rx="6.5" fill="#111111"/>
+          <rect x="50" y="22" width="13" height="44" rx="6.5" fill="#111111"/>
+          <rect x="62.5" y="32" width="13" height="34" rx="6.5" fill="#111111"/>
+          <rect x="25" y="48" width="50.5" height="38" rx="13" fill="#111111"/>
+        </g>
+        <line x1="37.5" y1="34" x2="37.5" y2="52" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="50" y1="34" x2="50" y2="52" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="62.5" y1="34" x2="62.5" y2="52" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="38" y1="77" x2="63" y2="77" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="434" cy="326" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="434" cy="326" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="434" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">grab</text>
+    <g transform="matrix(0.96 0 0 0.96 510 278)">
+      <g>
+        <g>
+          <rect x="24" y="36" width="13" height="26" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="37" y="32" width="13" height="30" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="50" y="33" width="13" height="29" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="63" y="38" width="13" height="24" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="24" y="44" width="52" height="40" rx="14" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="24" y="36" width="13" height="26" rx="6.5" fill="#111111"/>
+          <rect x="37" y="32" width="13" height="30" rx="6.5" fill="#111111"/>
+          <rect x="50" y="33" width="13" height="29" rx="6.5" fill="#111111"/>
+          <rect x="63" y="38" width="13" height="24" rx="6.5" fill="#111111"/>
+          <rect x="24" y="44" width="52" height="40" rx="14" fill="#111111"/>
+        </g>
+        <line x1="37" y1="39" x2="37" y2="53" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="50" y1="39" x2="50" y2="53" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="63" y1="39" x2="63" y2="53" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="37" y1="75" x2="63" y2="75" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="558" cy="327.92" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="558" cy="327.92" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="558" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">grabbing</text>
+    <g transform="matrix(0.96 0 0 0.96 634 278)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <line x1="65" y1="72" x2="78" y2="72" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M73 66.5 L78.5 72 L73 77.5" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="648.4" cy="287.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="648.4" cy="287.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="682" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">dnd-move</text>
+    <g transform="matrix(0.96 0 0 0.96 758 278)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <line x1="65.5" y1="72" x2="78.5" y2="72" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="72" y1="65.5" x2="72" y2="78.5" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="772.4" cy="287.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="772.4" cy="287.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="806" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">dnd-copy</text>
+    <g transform="matrix(0.96 0 0 0.96 882 278)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <line x1="66.5" y1="77.5" x2="77.5" y2="66.5" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M68 66.5 L77.5 66.5 L77.5 76" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="896.4" cy="287.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="896.4" cy="287.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="930" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">dnd-link</text>
+    <g transform="matrix(0.96 0 0 0.96 14 410)">
+      <g>
+        <g>
+          <circle cx="50" cy="50" r="30" fill="none" stroke="#f2f2f2" stroke-width="12.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="30" fill="none" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <line x1="28.787" y1="28.787" x2="71.213" y2="71.213" fill="none" stroke="#89b4fa" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="62" cy="458" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="62" cy="458" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="62" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">not-allowed</text>
+    <g transform="matrix(0.96 0 0 0.96 138 410)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <circle cx="72" cy="72" r="8" fill="none" stroke="#89b4fa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="66.3" y1="77.7" x2="77.7" y2="66.3" fill="none" stroke="#89b4fa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="152.4" cy="419.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="152.4" cy="419.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="186" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">no-drop</text>
+    <g transform="matrix(0.96 0 0 0.96 262 410)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <path d="M67.267 67.132 A4.9 4.9 0 1 1 75.754 71.55" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M75.754 71.55 L72 75.4" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="72" cy="80.2" r="1.7" fill="#89b4fa"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="276.4" cy="419.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="276.4" cy="419.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="310" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">help</text>
+    <g transform="matrix(0.96 0 0 0.96 386 410)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <line x1="65.5" y1="66" x2="78.5" y2="66" fill="none" stroke="#89b4fa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="65.5" y1="72" x2="78.5" y2="72" fill="none" stroke="#89b4fa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="65.5" y1="78" x2="78.5" y2="78" fill="none" stroke="#89b4fa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="400.4" cy="419.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="400.4" cy="419.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="434" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">context-menu</text>
+    <g transform="matrix(0.96 0 0 0.96 510 410)">
+      <g>
+        <g>
+          <circle cx="50" cy="50" r="28" fill="none" stroke="#f2f2f2" stroke-width="12.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="28" fill="none" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <path d="M64 25.751 A28 28 0 0 1 78 50" fill="none" stroke="#89b4fa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+        <path d="M78 50 A28 28 0 0 1 47.56 77.893" fill="none" stroke="#89b4fa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="558" cy="458" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="558" cy="458" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="558" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">wait</text>
+    <g transform="matrix(0.96 0 0 0.96 634 410)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <circle cx="72" cy="72" r="8" fill="none" stroke="#f2f2f2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+        <path d="M77.142 65.872 A8 8 0 0 1 80 72" fill="none" stroke="#89b4fa" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+        <path d="M80 72 A8 8 0 0 1 70.611 79.878" fill="none" stroke="#89b4fa" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="648.4" cy="419.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="648.4" cy="419.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="682" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">progress</text>
+    <g transform="matrix(0.96 0 0 0.96 758 410)">
+      <g>
+        <g>
+          <line x1="60" y1="60" x2="84" y2="84" fill="none" stroke="#f2f2f2" stroke-width="14.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="42" cy="42" r="25" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="60" y1="60" x2="84" y2="84" fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="42" cy="42" r="25" fill="#111111"/>
+        </g>
+        <line x1="31" y1="42" x2="53" y2="42" fill="none" stroke="#89b4fa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="42" y1="31" x2="42" y2="53" fill="none" stroke="#89b4fa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="798.32" cy="450.32" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="798.32" cy="450.32" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="806" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">zoom-in</text>
+    <g transform="matrix(0.96 0 0 0.96 882 410)">
+      <g>
+        <g>
+          <line x1="60" y1="60" x2="84" y2="84" fill="none" stroke="#f2f2f2" stroke-width="14.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="42" cy="42" r="25" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="60" y1="60" x2="84" y2="84" fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="42" cy="42" r="25" fill="#111111"/>
+        </g>
+        <line x1="31" y1="42" x2="53" y2="42" fill="none" stroke="#89b4fa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="922.32" cy="450.32" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="922.32" cy="450.32" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="930" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#9399b2">zoom-out</text>
+    <rect x="992" y="0" width="992" height="528" fill="#eceff4"/>
+    <g transform="matrix(0.96 0 0 0.96 1006 14)">
+      <g>
+        <g>
+          <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+        </g>
+        <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1020.4" cy="23.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1020.4" cy="23.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1054" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">left_ptr</text>
+    <g transform="matrix(0.96 0 0 0.96 1130 14)">
+      <g>
+        <g>
+          <line x1="34" y1="66" x2="21" y2="53" fill="none" stroke="#f2f2f2" stroke-width="16.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="32" y="8" width="17" height="52" rx="8.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="47" y="32" width="16" height="34" rx="8" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="61" y="38" width="15" height="28" rx="7.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="32" y="46" width="45" height="40" rx="13" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="34" y1="66" x2="21" y2="53" fill="none" stroke="#111111" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="32" y="8" width="17" height="52" rx="8.5" fill="#111111"/>
+          <rect x="47" y="32" width="16" height="34" rx="8" fill="#111111"/>
+          <rect x="61" y="38" width="15" height="28" rx="7.5" fill="#111111"/>
+          <rect x="32" y="46" width="45" height="40" rx="13" fill="#111111"/>
+        </g>
+        <line x1="48" y1="36" x2="48" y2="51" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="62" y1="42" x2="62" y2="54" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="43" y1="77" x2="66" y2="77" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1168.88" cy="22.64" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1168.88" cy="22.64" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1178" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">pointer</text>
+    <g transform="matrix(0.96 0 0 0.96 1254 14)">
+      <g>
+        <g>
+          <line x1="50" y1="16" x2="50" y2="84" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="39" y1="16" x2="61" y2="16" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="39" y1="84" x2="61" y2="84" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="50" y1="16" x2="50" y2="84" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="39" y1="16" x2="61" y2="16" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="39" y1="84" x2="61" y2="84" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <line x1="50" y1="43" x2="50" y2="57" fill="none" stroke="#89b4fa" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1302" cy="62" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1302" cy="62" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1302" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">text</text>
+    <g transform="matrix(0.96 0 0 0.96 1378 14)">
+      <g transform="matrix(0 1 -1 0 100 0)">
+        <g>
+          <g>
+            <line x1="50" y1="16" x2="50" y2="84" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="39" y1="16" x2="61" y2="16" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="39" y1="84" x2="61" y2="84" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="16" x2="50" y2="84" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="39" y1="16" x2="61" y2="16" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="39" y1="84" x2="61" y2="84" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <line x1="50" y1="43" x2="50" y2="57" fill="none" stroke="#89b4fa" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1426" cy="62" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1426" cy="62" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1426" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">vertical-text</text>
+    <g transform="matrix(0.96 0 0 0.96 1502 14)">
+      <g>
+        <g>
+          <line x1="50" y1="12" x2="50" y2="88" fill="none" stroke="#f2f2f2" stroke-width="9.9" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="12" y1="50" x2="88" y2="50" fill="none" stroke="#f2f2f2" stroke-width="9.9" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="50" y1="12" x2="50" y2="88" fill="none" stroke="#111111" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="12" y1="50" x2="88" y2="50" fill="none" stroke="#111111" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+        </g>
+        <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1550" cy="62" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1550" cy="62" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1550" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">crosshair</text>
+    <g transform="matrix(0.96 0 0 0.96 1626 14)">
+      <g>
+        <g>
+          <path d="M46 16 L54 16 Q57 16 57 19 L57 40 Q57 43 60 43 L81 43 Q84 43 84 46 L84 54 Q84 57 81 57 L60 57 Q57 57 57 60 L57 81 Q57 84 54 84 L46 84 Q43 84 43 81 L43 60 Q43 57 40 57 L19 57 Q16 57 16 54 L16 46 Q16 43 19 43 L40 43 Q43 43 43 40 L43 19 Q43 16 46 16 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M46 16 L54 16 Q57 16 57 19 L57 40 Q57 43 60 43 L81 43 Q84 43 84 46 L84 54 Q84 57 81 57 L60 57 Q57 57 57 60 L57 81 Q57 84 54 84 L46 84 Q43 84 43 81 L43 60 Q43 57 40 57 L19 57 Q16 57 16 54 L16 46 Q16 43 19 43 L40 43 Q43 43 43 40 L43 19 Q43 16 46 16 Z" fill="#111111"/>
+          <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+        </g>
+        <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1674" cy="62" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1674" cy="62" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1674" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">cell</text>
+    <g transform="matrix(0.96 0 0 0.96 1750 14)">
+      <g>
+        <g>
+          <line x1="50" y1="27" x2="50" y2="73" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="27" y1="50" x2="73" y2="50" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M86.991 47.876 L77.099 40.894 Q73 38 73 43.018 L73 56.982 Q73 62 77.099 59.106 L86.991 52.124 Q90 50 86.991 47.876 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M13.009 52.124 L22.901 59.106 Q27 62 27 56.982 L27 43.018 Q27 38 22.901 40.894 L13.009 47.876 Q10 50 13.009 52.124 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="50" y1="27" x2="50" y2="73" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="27" y1="50" x2="73" y2="50" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#111111"/>
+          <path d="M86.991 47.876 L77.099 40.894 Q73 38 73 43.018 L73 56.982 Q73 62 77.099 59.106 L86.991 52.124 Q90 50 86.991 47.876 Z" fill="#111111"/>
+          <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#111111"/>
+          <path d="M13.009 52.124 L22.901 59.106 Q27 62 27 56.982 L27 43.018 Q27 38 22.901 40.894 L13.009 47.876 Q10 50 13.009 52.124 Z" fill="#111111"/>
+          <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+        </g>
+        <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1798" cy="62" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1798" cy="62" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1798" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">move</text>
+    <g transform="matrix(0.96 0 0 0.96 1874 14)">
+      <g>
+        <g>
+          <g>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#111111"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#111111"/>
+            <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1922" cy="62" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1922" cy="62" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1922" y="121" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">ns-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 1006 146)">
+      <g>
+        <g transform="matrix(0 1 -1 0 100 0)">
+          <g>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#111111"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#111111"/>
+            <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1054" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1054" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1054" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">ew-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 1130 146)">
+      <g>
+        <g transform="matrix(0.707 0.707 -0.707 0.707 50 -20.711)">
+          <g>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#111111"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#111111"/>
+            <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1178" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1178" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1178" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">nesw-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 1254 146)">
+      <g>
+        <g transform="matrix(0.707 -0.707 0.707 0.707 -20.711 50)">
+          <g>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="50" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="25" x2="50" y2="75" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 13.009 L40.894 22.901 Q38 27 43.018 27 L56.982 27 Q62 27 59.106 22.901 L52.124 13.009 Q50 10 47.876 13.009 Z" fill="#111111"/>
+            <path d="M52.124 86.991 L59.106 77.099 Q62 73 56.982 73 L43.018 73 Q38 73 40.894 77.099 L47.876 86.991 Q50 90 52.124 86.991 Z" fill="#111111"/>
+            <circle cx="50" cy="50" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="50" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1302" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1302" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1302" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">nwse-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 1378 146)">
+      <g>
+        <g>
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1426" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1426" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1426" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">n-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 1502 146)">
+      <g>
+        <g transform="matrix(0.707 0.707 -0.707 0.707 50 -20.711)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1550" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1550" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1550" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">ne-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 1626 146)">
+      <g>
+        <g transform="matrix(0 1 -1 0 100 0)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1674" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1674" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1674" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">e-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 1750 146)">
+      <g>
+        <g transform="matrix(-0.707 0.707 -0.707 -0.707 120.711 50)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1798" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1798" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1798" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">se-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 1874 146)">
+      <g>
+        <g transform="matrix(-1 0 0 -1 100 100)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1922" cy="194" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1922" cy="194" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1922" y="253" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">s-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 1006 278)">
+      <g>
+        <g transform="matrix(-0.707 -0.707 0.707 -0.707 50 120.711)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1054" cy="326" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1054" cy="326" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1054" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">sw-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 1130 278)">
+      <g>
+        <g transform="matrix(0 -1 1 0 0 100)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1178" cy="326" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1178" cy="326" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1178" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">w-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 1254 278)">
+      <g>
+        <g transform="matrix(0.707 -0.707 0.707 0.707 -20.711 50)">
+          <g>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#f2f2f2" stroke-width="10.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="56" r="6.2" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="50" y1="30" x2="50" y2="80" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="35" y1="86" x2="65" y2="86" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47.876 17.009 L40.894 26.901 Q38 31 43.018 31 L56.982 31 Q62 31 59.106 26.901 L52.124 17.009 Q50 14 47.876 17.009 Z" fill="#111111"/>
+            <circle cx="50" cy="56" r="6.2" fill="#111111"/>
+          </g>
+          <circle cx="50" cy="56" r="3.2" fill="#89b4fa"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <circle cx="1302" cy="326" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1302" cy="326" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1302" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">nw-resize</text>
+    <g transform="matrix(0.96 0 0 0.96 1378 278)">
+      <g transform="matrix(1 0 0 1 8 0)">
+        <g>
+          <line x1="27" y1="70" x2="14" y2="54" fill="none" stroke="#f2f2f2" stroke-width="16.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="25" y="26" width="13" height="40" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="37.5" y="16" width="13" height="50" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="50" y="22" width="13" height="44" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="62.5" y="32" width="13" height="34" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="25" y="48" width="50.5" height="38" rx="13" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="27" y1="70" x2="14" y2="54" fill="none" stroke="#111111" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="25" y="26" width="13" height="40" rx="6.5" fill="#111111"/>
+          <rect x="37.5" y="16" width="13" height="50" rx="6.5" fill="#111111"/>
+          <rect x="50" y="22" width="13" height="44" rx="6.5" fill="#111111"/>
+          <rect x="62.5" y="32" width="13" height="34" rx="6.5" fill="#111111"/>
+          <rect x="25" y="48" width="50.5" height="38" rx="13" fill="#111111"/>
+        </g>
+        <line x1="37.5" y1="34" x2="37.5" y2="52" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="50" y1="34" x2="50" y2="52" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="62.5" y1="34" x2="62.5" y2="52" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="38" y1="77" x2="63" y2="77" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1426" cy="326" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1426" cy="326" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1426" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">grab</text>
+    <g transform="matrix(0.96 0 0 0.96 1502 278)">
+      <g>
+        <g>
+          <rect x="24" y="36" width="13" height="26" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="37" y="32" width="13" height="30" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="50" y="33" width="13" height="29" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="63" y="38" width="13" height="24" rx="6.5" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="24" y="44" width="52" height="40" rx="14" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="24" y="36" width="13" height="26" rx="6.5" fill="#111111"/>
+          <rect x="37" y="32" width="13" height="30" rx="6.5" fill="#111111"/>
+          <rect x="50" y="33" width="13" height="29" rx="6.5" fill="#111111"/>
+          <rect x="63" y="38" width="13" height="24" rx="6.5" fill="#111111"/>
+          <rect x="24" y="44" width="52" height="40" rx="14" fill="#111111"/>
+        </g>
+        <line x1="37" y1="39" x2="37" y2="53" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="50" y1="39" x2="50" y2="53" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="63" y1="39" x2="63" y2="53" fill="none" stroke="#f2f2f2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="37" y1="75" x2="63" y2="75" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1550" cy="327.92" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1550" cy="327.92" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1550" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">grabbing</text>
+    <g transform="matrix(0.96 0 0 0.96 1626 278)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <line x1="65" y1="72" x2="78" y2="72" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M73 66.5 L78.5 72 L73 77.5" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1640.4" cy="287.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1640.4" cy="287.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1674" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">dnd-move</text>
+    <g transform="matrix(0.96 0 0 0.96 1750 278)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <line x1="65.5" y1="72" x2="78.5" y2="72" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="72" y1="65.5" x2="72" y2="78.5" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1764.4" cy="287.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1764.4" cy="287.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1798" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">dnd-copy</text>
+    <g transform="matrix(0.96 0 0 0.96 1874 278)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <line x1="66.5" y1="77.5" x2="77.5" y2="66.5" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M68 66.5 L77.5 66.5 L77.5 76" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1888.4" cy="287.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1888.4" cy="287.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1922" y="385" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">dnd-link</text>
+    <g transform="matrix(0.96 0 0 0.96 1006 410)">
+      <g>
+        <g>
+          <circle cx="50" cy="50" r="30" fill="none" stroke="#f2f2f2" stroke-width="12.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="30" fill="none" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <line x1="28.787" y1="28.787" x2="71.213" y2="71.213" fill="none" stroke="#89b4fa" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1054" cy="458" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1054" cy="458" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1054" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">not-allowed</text>
+    <g transform="matrix(0.96 0 0 0.96 1130 410)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <circle cx="72" cy="72" r="8" fill="none" stroke="#89b4fa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="66.3" y1="77.7" x2="77.7" y2="66.3" fill="none" stroke="#89b4fa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1144.4" cy="419.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1144.4" cy="419.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1178" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">no-drop</text>
+    <g transform="matrix(0.96 0 0 0.96 1254 410)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <path d="M67.267 67.132 A4.9 4.9 0 1 1 75.754 71.55" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M75.754 71.55 L72 75.4" fill="none" stroke="#89b4fa" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="72" cy="80.2" r="1.7" fill="#89b4fa"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1268.4" cy="419.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1268.4" cy="419.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1302" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">help</text>
+    <g transform="matrix(0.96 0 0 0.96 1378 410)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <line x1="65.5" y1="66" x2="78.5" y2="66" fill="none" stroke="#89b4fa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="65.5" y1="72" x2="78.5" y2="72" fill="none" stroke="#89b4fa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="65.5" y1="78" x2="78.5" y2="78" fill="none" stroke="#89b4fa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1392.4" cy="419.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1392.4" cy="419.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1426" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">context-menu</text>
+    <g transform="matrix(0.96 0 0 0.96 1502 410)">
+      <g>
+        <g>
+          <circle cx="50" cy="50" r="28" fill="none" stroke="#f2f2f2" stroke-width="12.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="50" r="28" fill="none" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <path d="M64 25.751 A28 28 0 0 1 78 50" fill="none" stroke="#89b4fa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+        <path d="M78 50 A28 28 0 0 1 47.56 77.893" fill="none" stroke="#89b4fa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1550" cy="458" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1550" cy="458" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1550" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">wait</text>
+    <g transform="matrix(0.96 0 0 0.96 1626 410)">
+      <g>
+        <g transform="matrix(0.9 0 0 0.9 1.4 0.8)">
+          <g>
+            <g>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 13.612 L14 65.148 Q14 72 19.035 67.352 L23.675 63.069 Q27 60 28.533 64.257 L34.751 81.531 Q36 85 39.357 83.474 L44.127 81.306 Q47 80 45.912 77.038 L39.482 59.534 Q38 55.5 42.298 55.5 L50.216 55.5 Q58 55.5 52.71 49.789 L17.814 12.117 Q14 8 14 13.612 Z" fill="#111111"/>
+            </g>
+            <line x1="36.1" y1="67.65" x2="39.52" y2="77.055" fill="none" stroke="#89b4fa" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <g>
+          <circle cx="72" cy="72" r="15" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="72" cy="72" r="15" fill="#111111"/>
+        </g>
+        <circle cx="72" cy="72" r="8" fill="none" stroke="#f2f2f2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+        <path d="M77.142 65.872 A8 8 0 0 1 80 72" fill="none" stroke="#89b4fa" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+        <path d="M80 72 A8 8 0 0 1 70.611 79.878" fill="none" stroke="#89b4fa" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1640.4" cy="419.6" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1640.4" cy="419.6" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1674" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">progress</text>
+    <g transform="matrix(0.96 0 0 0.96 1750 410)">
+      <g>
+        <g>
+          <line x1="60" y1="60" x2="84" y2="84" fill="none" stroke="#f2f2f2" stroke-width="14.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="42" cy="42" r="25" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="60" y1="60" x2="84" y2="84" fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="42" cy="42" r="25" fill="#111111"/>
+        </g>
+        <line x1="31" y1="42" x2="53" y2="42" fill="none" stroke="#89b4fa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="42" y1="31" x2="42" y2="53" fill="none" stroke="#89b4fa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1790.32" cy="450.32" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1790.32" cy="450.32" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1798" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">zoom-in</text>
+    <g transform="matrix(0.96 0 0 0.96 1874 410)">
+      <g>
+        <g>
+          <line x1="60" y1="60" x2="84" y2="84" fill="none" stroke="#f2f2f2" stroke-width="14.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="42" cy="42" r="25" fill="#f2f2f2" stroke="#f2f2f2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="60" y1="60" x2="84" y2="84" fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="42" cy="42" r="25" fill="#111111"/>
+        </g>
+        <line x1="31" y1="42" x2="53" y2="42" fill="none" stroke="#89b4fa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="1914.32" cy="450.32" r="2.4" fill="none" stroke="#ff3b3b" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1914.32" cy="450.32" r="0.5" fill="#ff3b3b"/>
+    </g>
+    <text x="1922" y="517" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5c6370">zoom-out</text>
+  </g>
+</svg>
