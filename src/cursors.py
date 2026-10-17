@@ -28,14 +28,11 @@ DrawFn = Callable[[Theme, Phase], Group]
 # =========================================================================== #
 # Pointer: a compact arrowhead, no tail
 # =========================================================================== #
-ARROW_POINTS = [
-    (14, 8),      # tip
-    (14, 78),     # bottom-left
-    (33, 62),     # notch
-    (66, 62),     # right wing
-]
-ARROW_RADII = [4.5, 5.0, 4.0, 4.5]
-ARROW_TIP = ARROW_POINTS[0]
+# Tilt a symmetric arrow so both wings retain identical lengths and corner radii.
+ARROW_AXIS = translate(14, 8) @ rotate(-22.5)
+ARROW_POINTS = [ARROW_AXIS.apply(p) for p in ((0, 0), (-27, 65), (0, 49), (27, 65))]
+ARROW_RADII = [4.5, 5.0, 4.0, 5.0]  # tip, left wing, notch, right wing
+ARROW_TIP = ARROW_POINTS[0]  # fixed anchor for arrow and badge variants
 
 
 def _arrow(theme: Theme) -> Group:
@@ -119,19 +116,22 @@ def draw_arrow_badge(glyph: Callable, theme: Theme, t: Phase = None) -> Group:
 
 
 # =========================================================================== #
-# Link: pointing hand (click ripple at the fingertip)
+# Link: pointing hand with click waves to the right of the fingertip
 # =========================================================================== #
 def draw_pointer(theme: Theme, t: Phase = None) -> Group:
+    """Draw a stylized hand with a sloped finger block and click waves beside the fingertip."""
     b = body_fill(theme)
     parts = [
-        Line((34, 68), (20, 54), body_stroke(theme, 12)),   # thumb
-        Rect(33, 8, 15, 54, 7.5, b),                        # index
-        Rect(47, 32, 14, 36, 7.0, b),                       # middle
-        Rect(60, 38, 13, 30, 6.5, b),                       # ring
-        Rect(72, 44, 12, 24, 6.0, b),                       # pinky
-        Rect(30, 46, 54, 42, 15.0, b),                      # palm
+        Line((45, 80.5), (13.2, 54), body_stroke(theme, 15)),  # thumb uses the width saved by narrowing the palm
+        Rect(33, 8, 15, 60, 7.5, b),                        # index overlaps the lower palm
+        rounded_polygon([(47, 32.875), (85.2, 47.875), (85.2, 76), (47, 76)], 7.5, b),  # raised fingers give the palm a taller silhouette
+        Rect(30, 46.875, 55.2, 41.125, 15.0, b),            # taller palm keeps its bottom edge and 8% narrower width
     ]
-    return Group([silhouette(theme, parts), *ripple(theme, 40.5, 28, t, 4.0, 15.0, 2.6)])
+    waves = []  # exterior click feedback, absent from the resting frame
+    if t is not None:
+        waves = [Arc(40.5, 8, 24 + 10 * t, 0, 35,
+                     accent_stroke(theme, 6.0, 1.0 - t))]
+    return Group([silhouette(theme, parts), *waves])
 
 
 # =========================================================================== #

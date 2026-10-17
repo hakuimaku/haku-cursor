@@ -21,6 +21,7 @@ import os
 import shutil
 import subprocess
 import sys
+import tempfile
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from pathlib import Path
@@ -231,7 +232,7 @@ def build_theme(theme: Theme, sizes: tuple[int, ...], renderer: Renderer, xcurso
 
 
 def build_preview_files(theme: Theme, renderer: Renderer, out_dir: Path) -> None:
-    """generated/preview[-light].svg/png (all cursors) and animations[-light].svg/png (filmstrips)."""
+    """Write static sheets, filmstrips and a timed GIF for the README."""
     out_dir.mkdir(parents=True, exist_ok=True)
     suffix = "" if theme.style == "dark" else f"-{theme.style}"
     for stem, (scene, w, h) in ((f"preview{suffix}", build_preview(theme)),
@@ -240,6 +241,24 @@ def build_preview_files(theme: Theme, renderer: Renderer, out_dir: Path) -> None
         svg_path.write_text(document_wh(scene, w, h), encoding="utf-8")
         renderer.render_wide(scene, svg_path, png_path, int(w), w, h)
         print(f"  {svg_path}  {png_path}")
+    build_preview_gif(theme, renderer, out_dir / f"preview{suffix}.gif")
+
+
+def build_preview_gif(theme: Theme, renderer: Renderer, gif_path: Path) -> None:
+    """Encode a 4.8-second preview using the installed renderer and Pillow."""
+    from PIL import Image  # GIF encoding; normal theme builds do not need Pillow
+
+    frames = []  # opaque frames preserve the dark and light preview backgrounds
+    with tempfile.TemporaryDirectory() as tmp:
+        svg_path, png_path = Path(tmp) / "frame.svg", Path(tmp) / "frame.png"
+        for elapsed_ms in range(0, 4800, 40):
+            scene, w, h = build_preview(theme, elapsed_ms)
+            svg_path.write_text(document_wh(scene, w, h), encoding="utf-8")
+            renderer.render_wide(scene, svg_path, png_path, int(w / 2), w, h)
+            with Image.open(png_path) as frame:
+                frames.append(frame.convert("RGB").quantize(colors=128))
+    frames[0].save(gif_path, save_all=True, append_images=frames[1:], duration=40, loop=0)
+    print(f"  {gif_path}")
 
 
 # --------------------------------------------------------------------------- #
@@ -279,7 +298,7 @@ def build_parser() -> argparse.ArgumentParser:
                    help="use the xcursorgen binary from PATH or the built-in pure-Python writer")
     p.add_argument("--jobs", "-j", type=int, default=os.cpu_count() or 2)
     p.add_argument("--preview", action="store_true",
-                   help="only write generated/preview*.svg/png and animations*.svg/png")
+                   help="only write generated/preview*.svg/png/gif and animations*.svg/png (needs Pillow)")
     p.add_argument("--list", action="store_true", help="list palettes and cursors, then exit")
     return p
 

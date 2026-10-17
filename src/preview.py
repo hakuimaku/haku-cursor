@@ -13,36 +13,38 @@ from svg import Circle, Group, Rect, Text, fill, scale, stroke, translate
 
 CELL = 96.0       # cursor drawn at 0.96x its canvas
 PAD = 14.0
-LABEL_H = 18.0
 COLUMNS = 8
 DARK_BG, LIGHT_BG = "#1e1e2e", "#eceff4"
 DARK_LABEL, LIGHT_LABEL = "#9399b2", "#5c6370"
 
 
-def _panel(theme: Theme, x0: float, bg: str, label: str, columns: int, rows: int, tile_w: float, tile_h: float) -> list:
+def _panel(theme: Theme, x0: float, bg: str, columns: int, rows: int, tile_w: float, tile_h: float,
+           elapsed_ms: int | None = None) -> list:
+    """Draw an icon grid using each cursor's own frame delay."""
     out: list = [Rect(x0, 0, columns * tile_w, rows * tile_h, 0, fill(bg))]
     k = CELL / CANVAS
     for i, spec in enumerate(CURSORS.values()):
         col, row = i % columns, i // columns
         ox, oy = x0 + col * tile_w + PAD, row * tile_h + PAD
         phase = 0.3 if spec.group == "Loading" else None     # rest frame, except spinners
+        if elapsed_ms is not None and spec.animated:
+            phase = (elapsed_ms // spec.delay_ms % spec.frames) / spec.frames
         scene = Group([spec.draw(theme, phase)], translate(ox, oy) @ scale(k))
         hx, hy = ox + spec.hotspot[0] * k, oy + spec.hotspot[1] * k
         marker = Group([Circle(hx, hy, 2.4, stroke("#ff3b3b", 0.9)), Circle(hx, hy, 0.5, fill("#ff3b3b"))])
-        name = spec.name + (" *" if spec.animated else "")
-        out += [scene, marker, Text(ox + CELL / 2, oy + CELL + 11, name, 9.0, "middle", fill(label))]
+        out += [scene, marker]
     return out
 
 
-def build_preview(theme: Theme) -> tuple[Group, float, float]:
-    """Return ``(scene, width, height)``; both panels share the same grid. ``*`` = animated."""
+def build_preview(theme: Theme, elapsed_ms: int | None = None) -> tuple[Group, float, float]:
+    """Return ``(scene, width, height)`` with matching icon grids on both backgrounds."""
     columns = COLUMNS
     rows = -(-len(CURSORS) // columns)
-    tile_w, tile_h = CELL + 2 * PAD, CELL + 2 * PAD + LABEL_H - 10
+    tile_w = tile_h = CELL + 2 * PAD
     panel_w = columns * tile_w
     root = Group()
-    root.add(*_panel(theme, 0, DARK_BG, DARK_LABEL, columns, rows, tile_w, tile_h))
-    root.add(*_panel(theme, panel_w, LIGHT_BG, LIGHT_LABEL, columns, rows, tile_w, tile_h))
+    root.add(*_panel(theme, 0, DARK_BG, columns, rows, tile_w, tile_h, elapsed_ms))
+    root.add(*_panel(theme, panel_w, LIGHT_BG, columns, rows, tile_w, tile_h, elapsed_ms))
     return root, 2 * panel_w, rows * tile_h
 
 

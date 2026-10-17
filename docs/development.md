@@ -34,8 +34,8 @@ To build every preset and install every built theme, opt in explicitly:
 ### Principles
 
 1. **Two colours, nothing else.** A *fill* (`base`) and an *accent*. The accent is the border and every glyph; there is no third colour (`make verify` checks this pixel by pixel).
-2. **Chunky and compact.** Fat strokes, round caps, generously rounded corners. The pointer is a plain arrowhead with **no tail**; fingers are thin, the palm stays full, and the hands carry no inner details.
-3. **Thick accent border.** Roughly 1.2 px thick at 24 px, which keeps the cursor readable on any wallpaper.
+2. **Chunky and compact.** Fat strokes, round caps, generously rounded corners. The arrowhead has **no tail**; the pointing hand has a slim palm, an extended thumb and three folded fingers joined into one straight edge sloping down to the right. The hands carry no inner details.
+3. **Accent border.** A 5-unit border (1.2 px at the 24 px reference size) keeps the cursor readable; the final thickness scales with each cursor's fit transform.
 4. **Fills its canvas.** Each cursor is scaled so its visible art, border included, spans the whole nominal size: **exactly 24 px at size 24**, 32 px at size 32, and so on.
 5. **One design system.** All cursors share the same tokens; none is designed in isolation.
 
@@ -84,7 +84,7 @@ Every cursor is drawn on a fixed **100 × 100 canvas** in normalised units, then
 |---|---|---|
 | `wait` | rotating arc with a fading tail | 16 × 60 ms |
 | `progress` | same spinner inside the badge | 16 × 60 ms |
-| `pointer` | click ripple expanding from the fingertip | 12 × 70 ms |
+| `pointer` | click waves expanding to the right of the fingertip, keeping the hand full-sized | 12 × 70 ms |
 | `crosshair` | ripple expanding from the centre | 10 × 70 ms |
 | `move`, 4 double-headed and 8 single-headed resize cursors | arrowheads breathe outwards | 8 × 80 ms |
 | `dnd-move` / `dnd-copy` / `dnd-link` | badge glyph slides / pulses / nudges | 8 × 80 ms |
@@ -94,6 +94,7 @@ Every cursor is drawn on a fixed **100 × 100 canvas** in normalised units, then
 
 Static: `left_ptr`, `text`, `vertical-text`, `cell`, `grab`, `grabbing`, `not-allowed`, `no-drop`.
 `make preview` also writes `generated/animations.png` (and `animations-light.png`) with every frame of every animated cursor.
+It also creates `generated/preview.gif` and `preview-light.gif`: 4.8-second animated grids on both backgrounds. GIF encoding requires Pillow; regular SVG-rendered theme builds do not.
 
 Animations multiply file size (about 16 MB per theme with everything on, 4.2 MB with only the spinners, 2.2 MB fully static), so you can dial them down:
 
@@ -129,7 +130,7 @@ Legacy 32-character hash names used by old X11 builds are listed in `HASH_ALIASE
 | `rsvg-convert` (librsvg) | SVG → PNG | alternatives: `resvg`, `inkscape` (CLI only, no GUI) |
 | `xcursorgen` | PNG → XCursor | |
 | `make` | build driver | optional |
-| `Pillow` | fallback only | used when no SVG renderer or `xcursorgen` is on `PATH` |
+| `Pillow` | GIF previews and fallback | encodes animated previews; also used when no SVG renderer or `xcursorgen` is on `PATH` |
 
 All binaries are resolved through `PATH` (`shutil.which`); nothing is hardcoded to `/usr/bin`. If `rsvg-convert` or `xcursorgen` is missing, the generator prints a `note:` and falls back to a built-in Pillow rasteriser and a pure-Python XCursor writer. Force a backend with `--renderer` / `--xcursorgen`.
 
@@ -172,7 +173,7 @@ make STYLE=light           # only Haku-Light             (STYLE=dark|light|both)
 make light                 # only Haku-Light             (make dark: only Haku-Dark)
 make ANIM=loading          # animations: all | loading | none
 make SIZES=extended        # 16 20 24 28 32 40 48 56 64 72 96   (default: 24 32 48 64 96)
-make preview               # generated/preview*.png + animations*.png
+make preview               # generated/preview*.png/gif + animations*.png (Pillow)
 make verify                # XCursor structure, hotspots, animation, symlinks, two-colour check
 make clean
 ```
@@ -210,7 +211,7 @@ make verify
 make preview
 ```
 
-The tests check default colours and theme names, explicit extra-colour selection, and install/uninstall behaviour in temporary directories. `make verify` checks built XCursor files, hotspots, animation frames, aliases and the two-colour palette. `make preview` regenerates the dark/light preview sheets and animation filmstrips in `generated/`.
+The tests check arrow symmetry, exterior hand animation, frame bounds, preview timing, default colours and theme names, explicit extra-colour selection, and install/uninstall behaviour in temporary directories. `make verify` checks built XCursor files, hotspots, animation frames, aliases and the two-colour palette. `make preview` regenerates the dark/light preview sheets, GIFs and animation filmstrips in `generated/`.
 
 Verification requires built themes, so run `make` first. `make clean` removes generated previews, intermediate files and built themes; it does not uninstall themes from `~/.icons/`.
 

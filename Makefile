@@ -6,7 +6,7 @@
 #   make blue STYLE=light only Haku-Blue-Light              (STYLE=dark|light|both, default both)
 #   make ANIM=loading     only wait/progress animate        (ANIM=all|loading|none, default all)
 #   make SIZES=extended   16 20 24 28 32 40 48 56 64 72 96  (default: 24 32 48 64 96)
-#   make preview          generated/preview*.png + animations*.png
+#   make preview          generated/preview*.png/gif + animations*.png (Pillow)
 #   make verify           structural + two-colour checks on everything in dist/
 #   make install          install Haku-Dark + Haku-Light to ~/.icons/
 #   make install THEME=blue         (installs Haku-Blue and Haku-Blue-Light; THEME=blue-light for one)

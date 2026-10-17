@@ -13,11 +13,16 @@ Only these two themes are built and installed by default. Extra colours are opti
 
 ![Haku-Dark on dark and light backgrounds](generated/preview.png)
 
+![Haku-Dark cursor animations](generated/preview.gif)
+
 **Light**
 
 ![Haku-Light on dark and light backgrounds](generated/preview-light.png)
 
-Red rings mark hotspots; `*` marks animated cursors.
+![Haku-Light cursor animations](generated/preview-light.gif)
+
+Red rings mark hotspots.
+GIFs show the animations on dark and light backgrounds. Run `make preview` to regenerate them (requires Pillow).
 
 ## Install
 
